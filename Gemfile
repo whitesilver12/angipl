@@ -12,6 +12,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'haml-rails', '~> 2.0', '>= 2.0.1'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.9'

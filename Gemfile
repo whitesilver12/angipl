@@ -32,6 +32,7 @@ group :test do
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'
   gem 'shoulda-matchers', '~> 4.1', '>= 4.1.2'
+  gem 'factory_bot_rails', '~> 5.1', '>= 5.1.1'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

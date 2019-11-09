@@ -4,7 +4,7 @@ RSpec.describe WordsController do
     describe "GET Index" do
         context "when some words present" do
             it "assings '@words'" do
-                word = Word.create(value: "cat", language: "english")
+                word = create(:word)
                 get :index
                 expect(assigns(:words)).to eq([word])  
             end

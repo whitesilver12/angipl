@@ -17,6 +17,7 @@ gem 'simple_form', '~> 5.0', '>= 5.0.1'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.9'
+  gem 'rails-controller-testing'
 end
 
 group :development do

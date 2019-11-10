@@ -14,6 +14,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'haml-rails', '~> 2.0', '>= 2.0.1'
 gem 'pg', '~> 1.1.4'
 gem 'simple_form', '~> 5.0', '>= 5.0.1'
+gem 'bootstrap', '~> 4.3', '>= 4.3.1'
+gem 'jquery-rails'
 
 group :development, :test do
   gem 'pry-rails', '~> 0.3.9'

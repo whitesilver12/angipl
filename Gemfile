@@ -16,6 +16,7 @@ gem 'pg', '~> 1.1.4'
 gem 'simple_form', '~> 5.0', '>= 5.0.1'
 
 group :development, :test do
+  gem 'pry-rails', '~> 0.3.9'
   gem 'rspec-rails', '~> 3.9'
   gem 'rails-controller-testing'
 end
